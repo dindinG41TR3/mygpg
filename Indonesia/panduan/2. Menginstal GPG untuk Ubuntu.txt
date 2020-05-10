@@ -1,0 +1,4 @@
+Melalui Perintah Berikut :
+Buka Terminal dan Ketikan Perintah Berikut
+
+sudo apt install gnupg
