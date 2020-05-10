@@ -1,0 +1,22 @@
+Mengirimkan GPG Key k Server
+Buka Terminal dan Ketikan Perintah Berikut :
+
+1. Server Ubuntu
+------------------------------------------------------------
+
+gpg --keyserver keyserver.ubuntu.com --send-keys 959CDDD1
+                                              #Ganti 959CDDD1 dengan GPG Key ID anda
+
+Sample :
+dindin@G41TR3 ~ $ gpg --keyserver keyserver.ubuntu.com --send-keys 959CDDD1
+gpg: sending key 959CDDD1 to hkp server keyserver.ubuntu.com
+
+2. Server keys.openpgp.org 
+Untuk Kebutuhan E-Mail seperti Extension pada Thunderbird "Enigmail"
+
+gpg --export dindin_hernawan@yahoo.com | curl -T - https://keys.openpgp.org 
+
+Sample :
+dindin@G41TR3 ~ $ gpg --export dindin_hernawan@yahoo.com | curl -T - https://keys.openpgp.org 
+Key successfully uploaded. Proceed with verification here:
+https://keys.openpgp.org/upload/V4t57XrfqgX8gqPFMT6nWDb29KsJSoWsNh1GHWMthJz9jvN0PO3ebH4J2jBs7cL35ovZdPx4kOAcgfXj_0aOH7GJqJ5_V9x8ZGaWnT7Mhp4ooUNS_faj5b1RyTCBEPJgIjHyePsF8pBqDBFMpO45Oyp4uq00B-icymoYzPD5P7iwLsLTvG0e2wyx_-b5eXYLrexA9o8rnkxj2jkGVKaVolTotxfl6FnZ
