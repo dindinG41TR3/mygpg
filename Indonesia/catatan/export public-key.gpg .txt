@@ -1,0 +1,4 @@
+Buka Terminal dan Ketikan Perintah Berikut
+
+gpg --output public-key.gpg --armor --export 959CDDD1
+                            # Silahkan Ganti 959CDDD1 sesuai ID publickey anda
