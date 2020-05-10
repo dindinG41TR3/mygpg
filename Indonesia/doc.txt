@@ -1,0 +1,1 @@
+https://superuser.com/questions/619145/how-to-make-gnupg-display-full-8-byte-64-bit-key-id
