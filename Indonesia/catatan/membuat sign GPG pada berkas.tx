@@ -1,0 +1,5 @@
+Gunakan Perintah Berikut :
+gpg --clearsign nama-berkas.txt
+
+Contohnya :
+gpg --clearsign laporan.txt
